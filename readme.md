@@ -52,9 +52,13 @@ You can use tag <span style="display:none"> inside the script to hide unnecessar
 Script try to find path to sql scripts: 
 
 • https://bitbucket/src/$release/Arpplication/ClientData/DbScripts/$release_sql
+
 • https://bitbucket/src/$release/Application/CustomizationManager/DbScripts/$release.sql
+
 • https://bitbucket/src/$release/Application/OrderIntel/DbScripts/$release.sql
+
 • https://bitbucket/src/$release/DbScripts/$release.sql
+
 • https://bitbucket/src/Release$/WebServices/BDA.Commerce.WebServices/DbScripts/$release.sql 
 
 After running parsing and writing all information the script closes the OneNote COM server. If the script is suddenly stopped, the program OneNote on Jenkins Server may be corrupted. In this case, you need to perform a OneNote quick recovery using the control panel on the Jenkins server.
